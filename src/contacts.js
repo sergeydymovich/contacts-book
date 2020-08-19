@@ -31,7 +31,7 @@ const contacts = (state = [], action) => {
 						elem.id === action.payload.id ? {...elem, email : action.payload.newValue } : elem
 					));
 				}
-        break;
+        	break;
 				default: 
 					return state;
 

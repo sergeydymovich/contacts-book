@@ -6,7 +6,7 @@ import {removeContact, changeContact}  from "./actions.js"
 const ContactList = () => {
 	
 	const contacts = useSelector(state => state.contacts);
-  const dispatch = useDispatch();
+    const dispatch = useDispatch();
 	return (		
 		<ul className="list">
 			{ contacts.map((elem) => (

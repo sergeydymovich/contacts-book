@@ -31,7 +31,7 @@ export const changeContact = (id, newValue, type) => {
 		payload: {
 			id,
 			newValue,
-      type,
+      		type,
 		}
 	}
 }
